@@ -14,7 +14,7 @@ export default async function SignIn() {
     <form
       action={async () => {
         "use server";
-        await signIn();
+        await signIn("google");
       }}
       className="w-full text-center bg-black text-white"
     >
